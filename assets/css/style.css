@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-1, .col-2, .col-3{
+  margin-left: 20px;
+}
+
+/* FORMATTAZIONE PAGINA */
+
+body{
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+
+/* TITOLO E SOTTOTITOLO */
+.titolo {
+  margin: 30px;
+  color: #E53170;
+}
+
+/* MEMBRI TEAM */
+.card{
+  box-shadow:0px 0px 5px  #0F0E17;
+  height: 85px;
+  width: 320px;
+  background-color: #0F0E17;
+  float: left;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+
+
+.nome, .professione, .email {
+  font-size: 13px;
+  color: aliceblue;
+  height: 100%;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+
+.container-cards {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+
+
+.card img {
+  height: 85px;
+  width: 85px;
+  float: left;
+  margin-right: 5px;
+  
+  
+}
+
+.descrizione {
+  display: inline-block;
+  margin-right:50px;
+  margin-top: 5px;
+  
+}
+
+.nome{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.professione{
+  font-size: 14px;
+}
+
+
+.email{
+  color: #58BBE4;
+  font-size: 14px;
+}
+
+.email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
