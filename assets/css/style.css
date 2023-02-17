@@ -10,15 +10,16 @@
   clear: both;
 }
 
-.col-1, .col-2, .col-3{
-  margin-left: 20px;
+.col{
+  
+  margin: 0 16px;
+  
 }
 
 /* FORMATTAZIONE PAGINA */
 
 body{
   width: 80%;
-  max-width: 1170px;
   margin: 0 auto;
   font-family: 'Fredoka', sans-serif;
 }
@@ -39,12 +40,14 @@ body{
 /* MEMBRI TEAM */
 .card{
   box-shadow:0px 0px 5px  #0F0E17;
-  height: 85px;
-  width: 320px;
+  height: 100px;
+  width: calc(80%/3);
+  min-width: 300px;
   background-color: #0F0E17;
   float: left;
   vertical-align: middle;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 
@@ -54,30 +57,30 @@ body{
   height: 100%;
   margin-bottom: 12px;
   text-align: left;
+
 }
 
 
 .container-cards {
   margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 100px;
 }
 
 
 
 .card img {
-  height: 85px;
-  width: 85px;
+  height: 100px;
+  width: 100px;
   float: left;
-  margin-right: 5px;
-  
+  margin-right: 0;
   
 }
 
 .descrizione {
   display: inline-block;
-  margin-right:50px;
+  margin-left: 0;
   margin-top: 5px;
-  
+  text-align: left;
 }
 
 .nome{
@@ -91,15 +94,12 @@ body{
 }
 
 
-.email{
+.email a{
   color: #58BBE4;
   font-size: 14px;
 }
 
-.email:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
+
 
 
 
